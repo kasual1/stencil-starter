@@ -1,5 +1,7 @@
 # Stencil-Starter
-Starter for Stencil.js to generate Angular, React and Vue component libraries.
+Starter for Stencil.js to generate Angular, React and Vue component libraries. 
+
+For more information read the official [docs](https://stenciljs.com/docs/introduction).
 
 ## Setup
 Clone the repository
