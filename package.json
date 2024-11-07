@@ -1,0 +1,24 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/libs/stencil",
+    "packages/libs/angular",
+    "packages/libs/react",
+    "packages/libs/vue",
+    "packages/demos/angular",
+    "packages/demos/react",
+    "packages/demos/vue"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.8.6",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "clean": "npm run clean --workspaces",
+    "build": "npm run build --workspaces --if-present",
+    "start-demo-angular": "npm run start -w packages/demos/angular",
+    "start-demo-react": "npm run start -w packages/demos/react",
+    "start-demo-vue": "npm run start -w packages/demos/vue"
+  }
+}
